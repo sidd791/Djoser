@@ -1,0 +1,5 @@
+Register: POST /api/v1/auth/users/
+Login (obtain JWT): POST /api/v1/auth/jwt/create/
+Refresh JWT: POST /api/v1/auth/jwt/refresh/
+Verify JWT: POST /api/v1/auth/jwt/verify/
+Password Reset: POST /api/v1/auth/users/reset_password/
